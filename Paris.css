@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+    font-family: cursive, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px #ff2977,
+    2px 2px 1px #ff2977;
+}
+
+html {
+    background-image: url(f2b0c144ad8ce8ad49d5eb5c8aef4168.gif);
+}
+
+
+.Love {
+    margin: center;
+    padding: 100px 400px;
+    width: 700px;
+    height: 500px;
+    transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition-duration: 2s;
+
+    
+}
+
+.Love:hover {
+    transform: scale(120%);
+
+}
+.Pic {
+    margin: center;
+    width: 400px;
+    height: 700px;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 3s;
+
+}
+
+
+.Pic:hover {
+    width: 500px;
+    height: 800px;
+
+}
+
+a {
+    text-align: center;
+    font-size: x-large;
+    color: #ff2977;
+}
